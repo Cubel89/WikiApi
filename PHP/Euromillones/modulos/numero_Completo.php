@@ -1,6 +1,7 @@
 <?php
 /**
  * Modulo los numeros mas repetidos desde el principio
+ * V.0.0.6
  */
 function numeroCompleto(){
 /**

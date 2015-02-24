@@ -1,6 +1,7 @@
 <?php
 /**
  * Modulo los numeros mas repetidos del todo y semialeatorios
+ * V.0.0.6
  */
 function numeroSemi(){
 /**

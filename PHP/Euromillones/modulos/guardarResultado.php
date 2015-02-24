@@ -1,6 +1,7 @@
 <?php
 /**
  * Modulo para Guardar Resultado
+ * V.0.0.6
  */
 function guardarResultado($datos){
 	//Decodificamos el JSON

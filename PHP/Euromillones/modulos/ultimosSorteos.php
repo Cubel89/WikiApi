@@ -1,6 +1,7 @@
 <?php
 /**
  * Modulo para sacar los ultimos sorteos
+ * V.0.0.6
  */
 function ultimosSorteos($datos){
 //Creamos la consulta 

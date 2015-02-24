@@ -3,6 +3,7 @@
  * API para conexion de moviles (Se hara de formula modular);
  * 1.- Metermos en la variable data el JSON recibido
  * 2.- Añadiremos un require para cada nueva funcion
+ * V.1.0.0
  */
 $data = file_get_contents("php://input"); //Añadimos el JSON a la variable data
 $objData = json_decode($data); //Decodificamos el JSON

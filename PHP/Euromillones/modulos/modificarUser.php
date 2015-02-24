@@ -1,6 +1,7 @@
 <?php
 /**
  * Modulo para Modificar User
+ * V.0.0.6
  */
 function modificarUser($datos){
 	//Decodificamos el JSON

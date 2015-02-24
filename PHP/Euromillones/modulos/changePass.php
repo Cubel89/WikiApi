@@ -1,6 +1,7 @@
 <?php	
 /**
  * Modulo para cambiar el Pass
+ * V.0.0.6
  */
 function actualizarPass($datos){
 	//Decodificamos el JSON

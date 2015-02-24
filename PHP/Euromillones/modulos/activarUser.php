@@ -1,6 +1,7 @@
 <?php
 /**
  * Modulo para Activar User
+ * V.0.0.6
  */
 function activarUsers($datos){
 //Activar usuario
@@ -52,7 +53,7 @@ function activarUsers($datos){
 
 	// credenciales usuario
 	$mail->Username = 'info@ateneasystems.es';
-	$mail->Password = 'atenea2015'; 
+	$mail->Password = ''; 
 
 	if(!$mail->Send()) {
 	return 'Error enviando: ' . $mail->ErrorInfo;

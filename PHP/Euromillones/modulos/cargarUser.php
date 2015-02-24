@@ -4,6 +4,7 @@
  * Procedimiento a Seguir:
  * Se consulta al servidor el ID del usuario, Nombre, y Pass con solo darle el USER
  * y android comprobara si es correcto despues de decodificar el PASS
+ * V.0.0.6
  */
 function cargarUser($datos){
 //Creamos la consulta 

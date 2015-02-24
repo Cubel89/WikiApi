@@ -4,6 +4,7 @@
  * Procedimiento a Seguir:
  * Comprobar si existe dicho usuario, si existe terminar aqui
  * si no existe registrar uno nuevo y mandar un mail al usuario registrado
+ * V.0.0.6
  */
 function registro($datos){
 	//Decodificamos el JSON
@@ -55,7 +56,7 @@ function registro($datos){
 
 	// credenciales usuario
 	$mail->Username = 'info@ateneasystems.es';
-	$mail->Password = 'atenea2015'; 
+	$mail->Password = ''; 
 
 	if(!$mail->Send()) {
 	return 'Error enviando: ' . $mail->ErrorInfo;

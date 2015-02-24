@@ -1,6 +1,7 @@
 <?php
 /**
  * Modulo para Traer Usuarios
+ * V.0.0.6
  */
 function traerUsuarios(){
 /**

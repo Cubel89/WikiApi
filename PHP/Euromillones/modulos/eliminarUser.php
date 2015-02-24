@@ -1,6 +1,7 @@
 <?php
 /**
  * Modulo para Eliminar User
+ * V.0.0.6
  */
 function eliminarUser($datos){
 //Desactivar usuario
